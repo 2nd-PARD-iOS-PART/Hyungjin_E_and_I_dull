@@ -10,12 +10,13 @@
 		CA97CA362B11004600A2FBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA352B11004600A2FBE5 /* AppDelegate.swift */; };
 		CA97CA382B11004600A2FBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA372B11004600A2FBE5 /* SceneDelegate.swift */; };
 		CA97CA3A2B11004600A2FBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA392B11004600A2FBE5 /* ViewController.swift */; };
-		CA97CA3D2B11004600A2FBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA97CA3B2B11004600A2FBE5 /* Main.storyboard */; };
 		CA97CA3F2B11004700A2FBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA97CA3E2B11004700A2FBE5 /* Assets.xcassets */; };
-		CA97CA422B11004700A2FBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA97CA402B11004700A2FBE5 /* LaunchScreen.storyboard */; };
 		CA97CA4D2B11004700A2FBE5 /* ComonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA4C2B11004700A2FBE5 /* ComonTests.swift */; };
 		CA97CA572B11004700A2FBE5 /* ComonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA562B11004700A2FBE5 /* ComonUITests.swift */; };
 		CA97CA592B11004700A2FBE5 /* ComonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA582B11004700A2FBE5 /* ComonUITestsLaunchTests.swift */; };
+		CA97CA672B11077900A2FBE5 /* ColorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA662B11077900A2FBE5 /* ColorSystem.swift */; };
+		CA97CA692B11078C00A2FBE5 /* ComponentSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA682B11078C00A2FBE5 /* ComponentSystem.swift */; };
+		CA97CA6B2B11079500A2FBE5 /* FontSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA6A2B11079500A2FBE5 /* FontSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +41,16 @@
 		CA97CA352B11004600A2FBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA97CA372B11004600A2FBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA97CA392B11004600A2FBE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA97CA3C2B11004600A2FBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA97CA3E2B11004700A2FBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA97CA412B11004700A2FBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA97CA432B11004700A2FBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA97CA482B11004700A2FBE5 /* ComonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA97CA4C2B11004700A2FBE5 /* ComonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComonTests.swift; sourceTree = "<group>"; };
 		CA97CA522B11004700A2FBE5 /* ComonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA97CA562B11004700A2FBE5 /* ComonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComonUITests.swift; sourceTree = "<group>"; };
 		CA97CA582B11004700A2FBE5 /* ComonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA97CA662B11077900A2FBE5 /* ColorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSystem.swift; sourceTree = "<group>"; };
+		CA97CA682B11078C00A2FBE5 /* ComponentSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentSystem.swift; sourceTree = "<group>"; };
+		CA97CA6A2B11079500A2FBE5 /* FontSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,11 @@
 		CA97CA342B11004600A2FBE5 /* Comon */ = {
 			isa = PBXGroup;
 			children = (
-				CA97CA352B11004600A2FBE5 /* AppDelegate.swift */,
-				CA97CA372B11004600A2FBE5 /* SceneDelegate.swift */,
-				CA97CA392B11004600A2FBE5 /* ViewController.swift */,
-				CA97CA3B2B11004600A2FBE5 /* Main.storyboard */,
+				CA97CA702B11092800A2FBE5 /* Resources */,
+				CA97CA652B1106CC00A2FBE5 /* Design */,
+				CA97CA6E2B1108BB00A2FBE5 /* Controller */,
+				CA97CA6D2B1108A300A2FBE5 /* Views */,
 				CA97CA3E2B11004700A2FBE5 /* Assets.xcassets */,
-				CA97CA402B11004700A2FBE5 /* LaunchScreen.storyboard */,
 				CA97CA432B11004700A2FBE5 /* Info.plist */,
 			);
 			path = Comon;
@@ -125,6 +126,48 @@
 				CA97CA582B11004700A2FBE5 /* ComonUITestsLaunchTests.swift */,
 			);
 			path = ComonUITests;
+			sourceTree = "<group>";
+		};
+		CA97CA652B1106CC00A2FBE5 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				CA97CA662B11077900A2FBE5 /* ColorSystem.swift */,
+				CA97CA682B11078C00A2FBE5 /* ComponentSystem.swift */,
+				CA97CA6A2B11079500A2FBE5 /* FontSystem.swift */,
+				CA97CA6C2B11079900A2FBE5 /* Fonts */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		CA97CA6C2B11079900A2FBE5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CA97CA6D2B1108A300A2FBE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA97CA392B11004600A2FBE5 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA97CA6E2B1108BB00A2FBE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA97CA702B11092800A2FBE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA97CA352B11004600A2FBE5 /* AppDelegate.swift */,
+				CA97CA372B11004600A2FBE5 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA97CA422B11004700A2FBE5 /* LaunchScreen.storyboard in Resources */,
 				CA97CA3F2B11004700A2FBE5 /* Assets.xcassets in Resources */,
-				CA97CA3D2B11004600A2FBE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA97CA672B11077900A2FBE5 /* ColorSystem.swift in Sources */,
 				CA97CA3A2B11004600A2FBE5 /* ViewController.swift in Sources */,
 				CA97CA362B11004600A2FBE5 /* AppDelegate.swift in Sources */,
 				CA97CA382B11004600A2FBE5 /* SceneDelegate.swift in Sources */,
+				CA97CA692B11078C00A2FBE5 /* ComponentSystem.swift in Sources */,
+				CA97CA6B2B11079500A2FBE5 /* FontSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +339,6 @@
 			targetProxy = CA97CA532B11004700A2FBE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CA97CA3B2B11004600A2FBE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA97CA3C2B11004600A2FBE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA97CA402B11004700A2FBE5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA97CA412B11004700A2FBE5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CA97CA5A2B11004700A2FBE5 /* Debug */ = {
@@ -441,7 +466,6 @@
 				INFOPLIST_FILE = Comon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +492,6 @@
 				INFOPLIST_FILE = Comon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
