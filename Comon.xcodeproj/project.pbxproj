@@ -12,6 +12,7 @@
 		88AF2ED02B1149C400093DB9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2ECF2B1149C400093DB9 /* CameraViewController.swift */; };
 		88AF2ED22B114C3E00093DB9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2ED12B114C3E00093DB9 /* ResultViewController.swift */; };
 		88AF2ED42B1155C500093DB9 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2ED32B1155C500093DB9 /* FinalViewController.swift */; };
+		88AF2ED62B11620D00093DB9 /* makeRoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AF2ED52B11620D00093DB9 /* makeRoom.png */; };
 		901757F12B1143BD007AA6EF /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901757F02B1143BD007AA6EF /* RoomViewController.swift */; };
 		901757F32B1143E6007AA6EF /* KeyWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901757F22B1143E6007AA6EF /* KeyWordViewController.swift */; };
 		CA97CA362B11004600A2FBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA352B11004600A2FBE5 /* AppDelegate.swift */; };
@@ -49,6 +50,7 @@
 		88AF2ECF2B1149C400093DB9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		88AF2ED12B114C3E00093DB9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		88AF2ED32B1155C500093DB9 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		88AF2ED52B11620D00093DB9 /* makeRoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = makeRoom.png; path = ../../../Documents/Pard/shot_image/makeRoom.png; sourceTree = "<group>"; };
 		901757F02B1143BD007AA6EF /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
 		901757F22B1143E6007AA6EF /* KeyWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyWordViewController.swift; sourceTree = "<group>"; };
 		CA97CA322B11004600A2FBE5 /* Comon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +154,7 @@
 			children = (
 				CA97CA562B11004700A2FBE5 /* ComonUITests.swift */,
 				CA97CA582B11004700A2FBE5 /* ComonUITestsLaunchTests.swift */,
+				88AF2ED52B11620D00093DB9 /* makeRoom.png */,
 			);
 			path = ComonUITests;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88AF2ED62B11620D00093DB9 /* makeRoom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

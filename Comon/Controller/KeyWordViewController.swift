@@ -22,9 +22,15 @@ class KeyWordViewController: UIViewController {
         let textField = UITextField()
         textField.placeholder = "키워드를 입력하세요"
         textField.layer.cornerRadius = 5 // 네모난 버튼을 만들기 위한 설정
-        textField.backgroundColor = .lightGray
+        textField.backgroundColor = .clear
         textField.translatesAutoresizingMaskIntoConstraints = false
         return textField
+    }()
+    
+    let textFieldImage: UIImageView = {
+        let image = UIImageView()
+        image.image = UIImage(named: "keyword")?.withRenderingMode(.alwaysOriginal) // 이미지 이름으로 변경해주세요
+        return image
     }()
     
     let NextButton: UIButton = {
@@ -51,6 +57,7 @@ class KeyWordViewController: UIViewController {
 
         view.addSubview(homeTitle)
         view.addSubview(keywordTextField)
+        view.addSubview(textFieldImage)
         view.addSubview(NextButton)
         view.addSubview(BackButton)
         
@@ -83,6 +90,11 @@ class KeyWordViewController: UIViewController {
             keywordTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             keywordTextField.widthAnchor.constraint(equalToConstant: 250), // 텍스트 필드의 너비를 조절
             keywordTextField.heightAnchor.constraint(equalToConstant: 70), // 텍스트 필드의 높이를 조절
+            
+            textFieldImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 350),
+            textFieldImage.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            textFieldImage.widthAnchor.constraint(equalToConstant: 250), // 텍스트 필드의 너비를 조절
+            textFieldImage.heightAnchor.constraint(equalToConstant: 70),
         
             BackButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 650),
             BackButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
