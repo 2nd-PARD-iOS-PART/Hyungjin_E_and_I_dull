@@ -58,8 +58,11 @@ class LayoutFrameViewController: UIViewController {
     }
     
     @objc func imageReadyButtonTapped() {
-            print("dd")
-        }
+        let thirdVC = CameraViewController()
+        let navController = UINavigationController(rootViewController: thirdVC)
+        navController.modalPresentationStyle = .fullScreen
+        self.present(navController, animated: true, completion: nil)
+    }
 
 
 }

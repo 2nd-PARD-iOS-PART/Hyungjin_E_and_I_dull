@@ -18,6 +18,8 @@ class SelectLayoutViewController: UIViewController {
         titleLabel2.font = UIFont.boldSystemFont(ofSize: 17)
         view.addSubview(titleLabel2)
         
+        configureNavbar()
+        
         let imageView1 = UIImageView(image: UIImage(named: "image1.png"))
         let imageView2 = UIImageView(image: UIImage(named: "image2.png"))
         let imageView3 = UIImageView(image: UIImage(named: "image3.png"))
@@ -102,6 +104,27 @@ class SelectLayoutViewController: UIViewController {
         button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
 
+    private func configureNavbar() {
+        // UIBarButtonItem을 생성하고 시스템에서 제공하는 "X" 아이템을 설정
+        let item1 = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(XButtonPressed))
+        item1.tintColor = UIColor.white
+        navigationItem.rightBarButtonItems = [item1]
+    }
+    
+    @objc func XButtonPressed() {
+        print("X button Pressed")
+
+        let alert = UIAlertController(title: "나가시겠어요?", message: nil, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "나가기", style: .default) { _ in
+            let xVC = ViewController() // Assuming ViewController is not an optional type
+            let navController = UINavigationController(rootViewController: xVC)
+            navController.modalPresentationStyle = .fullScreen
+            self.present(navController, animated: true, completion: nil)
+        })
+        alert.addAction(UIAlertAction(title: "취소", style: .cancel))
+        self.present(alert, animated: true)
+    }
+    
     @objc private func buttonTapped() {
         // Handle button tap
         print("Button tapped!")

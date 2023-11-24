@@ -73,9 +73,9 @@ class KeyWordViewController: UIViewController {
     }
     
     func addDismissGesture() {
-            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
-            view.addGestureRecognizer(tapGesture)
-        }
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tapGesture)
+    }
 
     // MARK: - 제약 조건 설정하기
     func addConstraints() {
@@ -110,7 +110,7 @@ class KeyWordViewController: UIViewController {
     
     @objc func nextButtonPressed() {
         print("next button Pressed")
-        let thirdVC = KeyWordViewController()
+        let thirdVC = SelectLayoutViewController()
         let navController = UINavigationController(rootViewController: thirdVC)
         navController.modalPresentationStyle = .fullScreen
         self.present(navController, animated: true, completion: nil)
