@@ -1,6 +1,6 @@
 //
 //  KeyWordViewController.swift
-//  Comon
+//  short_test
 //
 //  Created by 김민섭 on 2023/11/25.
 //
@@ -62,7 +62,7 @@ class KeyWordViewController: UIViewController {
         addConstraints()
         configureNavbar()
         keywordTextField.becomeFirstResponder()
-        
+        addDismissGesture()
     }
     
     private func configureNavbar() {
@@ -72,6 +72,11 @@ class KeyWordViewController: UIViewController {
         navigationItem.rightBarButtonItems = [item1]
     }
     
+    func addDismissGesture() {
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+            view.addGestureRecognizer(tapGesture)
+        }
+
     // MARK: - 제약 조건 설정하기
     func addConstraints() {
         NSLayoutConstraint.activate([
@@ -117,6 +122,10 @@ class KeyWordViewController: UIViewController {
         let navController = UINavigationController(rootViewController: secondVC)
         navController.modalPresentationStyle = .fullScreen
         self.present(navController, animated: true, completion: nil)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     @objc func XButtonPressed() {
