@@ -11,7 +11,7 @@
 # <img src = "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d84f74b-2400-462d-ab8b-c89d880bbd12%2Fdlive_logo.png?table=block&id=b99ddc5a-4536-4328-8c77-32a5239a1cf0&spaceId=4bed42de-71b8-4266-b5a7-e99ce099274c&width=250&userId=d004bf15-60d6-4bbc-8417-a2eca108ac26&cache=v2" width="35" height="35" > 디라이브(DLive)<br>
 
 
-## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/12061128-e02b-41f8-a1c4-6fd16dd95835" height="35"> 서비스 소개
+## 😆 서비스 소개
 **"동승자 취향 기반 드라이브 선곡 AI 서비스"**<br>
 ### [서비스 소개 바로보기](https://www.notion.so/Dlive-b99ddc5a453643288c7732a5239a1cf0)  
 <br>
@@ -21,7 +21,7 @@
 그래서 저희는 사용자가 더 신나고 즐거운 상황에 몰입하는 것을 돕기 위하여, 쉽고 빠른 선곡을 도와주는 서비스를 제작하였습니다.<br><br>
 
 
-## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/120b212a-7351-407e-b3b5-55cb54791c84" height="35">  Main 기능 
+## 🤚🏻  Main 기능 
 > 음악취향 수집<br>
 > AI의 맞춤 노래 추천<br>
 > 플레이리스트 보관<br>
