@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88AF2ECA2B1146C700093DB9 /* SelectLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2EC92B1146C700093DB9 /* SelectLayoutViewController.swift */; };
+		88AF2ECC2B1146FA00093DB9 /* LayoutFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2ECB2B1146FA00093DB9 /* LayoutFrameViewController.swift */; };
 		901757F12B1143BD007AA6EF /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901757F02B1143BD007AA6EF /* RoomViewController.swift */; };
 		901757F32B1143E6007AA6EF /* KeyWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901757F22B1143E6007AA6EF /* KeyWordViewController.swift */; };
 		CA97CA362B11004600A2FBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA352B11004600A2FBE5 /* AppDelegate.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88AF2EC92B1146C700093DB9 /* SelectLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLayoutViewController.swift; sourceTree = "<group>"; };
+		88AF2ECB2B1146FA00093DB9 /* LayoutFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutFrameViewController.swift; sourceTree = "<group>"; };
 		901757F02B1143BD007AA6EF /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
 		901757F22B1143E6007AA6EF /* KeyWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyWordViewController.swift; sourceTree = "<group>"; };
 		CA97CA322B11004600A2FBE5 /* Comon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +91,8 @@
 			children = (
 				901757F02B1143BD007AA6EF /* RoomViewController.swift */,
 				901757F22B1143E6007AA6EF /* KeyWordViewController.swift */,
+				88AF2EC92B1146C700093DB9 /* SelectLayoutViewController.swift */,
+				88AF2ECB2B1146FA00093DB9 /* LayoutFrameViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -309,9 +315,11 @@
 				CA97CA3A2B11004600A2FBE5 /* ViewController.swift in Sources */,
 				901757F32B1143E6007AA6EF /* KeyWordViewController.swift in Sources */,
 				901757F12B1143BD007AA6EF /* RoomViewController.swift in Sources */,
+				88AF2ECC2B1146FA00093DB9 /* LayoutFrameViewController.swift in Sources */,
 				CA97CA362B11004600A2FBE5 /* AppDelegate.swift in Sources */,
 				CA97CA382B11004600A2FBE5 /* SceneDelegate.swift in Sources */,
 				CA97CA692B11078C00A2FBE5 /* ComponentSystem.swift in Sources */,
+				88AF2ECA2B1146C700093DB9 /* SelectLayoutViewController.swift in Sources */,
 				CA97CA6B2B11079500A2FBE5 /* FontSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
