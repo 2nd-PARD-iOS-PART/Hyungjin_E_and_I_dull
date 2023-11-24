@@ -70,18 +70,18 @@ class RoomViewController: UIViewController {
     
     let NextButton: UIButton = {
         let button = UIButton()
-        button.setTitle("다음", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        button.setTitle("", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 20 // 네모난 버튼을 만들기 위한 설정
+        button.setImage(UIImage(named: "next.png"), for: .normal)
+        button.imageView?.contentMode = .scaleAspectFit
         return button
     }()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .black // 시스템 배경색 설정
-        
+        view.backgroundColor = UIColor.background
+
         view.addSubview(homeTitle)
         view.addSubview(addButton)
         view.addSubview(SecondButton)
@@ -104,7 +104,7 @@ class RoomViewController: UIViewController {
     private func configureNavbar() {
         // UIBarButtonItem을 생성하고 시스템에서 제공하는 "X" 아이템을 설정
         let item1 = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(XButtonPressed))
-        item1.tintColor = UIColor.white
+        item1.tintColor = UIColor.black
         navigationItem.rightBarButtonItems = [item1]
     }
 

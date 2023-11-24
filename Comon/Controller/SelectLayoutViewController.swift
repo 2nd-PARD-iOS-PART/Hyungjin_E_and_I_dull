@@ -4,8 +4,8 @@ class SelectLayoutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        
+        view.backgroundColor = UIColor.background
+
         let titleLabel = UILabel()
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.text = "레이아웃 선택"
@@ -24,7 +24,7 @@ class SelectLayoutViewController: UIViewController {
         let imageView2 = UIImageView(image: UIImage(named: "image2.png"))
         let imageView3 = UIImageView(image: UIImage(named: "image3.png"))
         let imageView4 = UIImageView(image: UIImage(named: "image4.png"))
-
+        
         imageView1.translatesAutoresizingMaskIntoConstraints = false
         imageView2.translatesAutoresizingMaskIntoConstraints = false
         imageView3.translatesAutoresizingMaskIntoConstraints = false
@@ -82,7 +82,7 @@ class SelectLayoutViewController: UIViewController {
             nextButton.heightAnchor.constraint(equalToConstant: 60)
         ])
     }
-
+    
     private func addCircularButton(below imageView: UIImageView) {
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -107,7 +107,7 @@ class SelectLayoutViewController: UIViewController {
     private func configureNavbar() {
         // UIBarButtonItem을 생성하고 시스템에서 제공하는 "X" 아이템을 설정
         let item1 = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(XButtonPressed))
-        item1.tintColor = UIColor.white
+        item1.tintColor = UIColor.black
         navigationItem.rightBarButtonItems = [item1]
     }
     
@@ -130,10 +130,20 @@ class SelectLayoutViewController: UIViewController {
         print("Button tapped!")
     }
     
+    @objc func backButtonPressed() {
+        print("back button Pressed")
+        let secondVC = KeyWordViewController()
+        let navController = UINavigationController(rootViewController: secondVC)
+        navController.modalPresentationStyle = .fullScreen
+        self.present(navController, animated: true, completion: nil)
+    }
+    
     @objc private func nextButtonTapped() {
         // "next.png" 버튼이 눌렸을 때 처리할 내용
         print("Next button tapped!")
         let nextVC = LayoutFrameViewController()
-        self.navigationController?.pushViewController(nextVC, animated: true)
+        let navController = UINavigationController(rootViewController: nextVC)
+        navController.modalPresentationStyle = .fullScreen
+        self.present(navController, animated: true, completion: nil)
     }
 }

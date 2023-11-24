@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     let homeTitle: UILabel = {
         let label = UILabel()
-        label.text = "로고 !!!!"
+        label.text = "커몬"
         label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
