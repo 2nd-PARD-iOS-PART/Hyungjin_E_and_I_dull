@@ -21,11 +21,11 @@ extension UIColor {
 
     // MARK: - 디자인 시스템 컬러 지정
     static var background: UIColor {
-        return UIColor(rgb: 0xffF4F1EF, alpha: 1.0)
+        return UIColor(rgb: 0xff252525, alpha: 1.0)
     }
 
     static var primary: UIColor {
-        return UIColor(rgb: 0xffF35E3E, alpha: 1.0)
+        return UIColor(rgb: 0xffFF5B2A, alpha: 1.0)
     }
 
     static var secondary: UIColor {
@@ -33,6 +33,6 @@ extension UIColor {
     }
 
     static var textBlack: UIColor {
-        return UIColor(rgb: 0xff2B2B2B, alpha: 1.0)
+        return UIColor(rgb: 0xff9D9D9D, alpha: 1.0)
     }
 }

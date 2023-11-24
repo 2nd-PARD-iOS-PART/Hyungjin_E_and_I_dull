@@ -43,8 +43,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemMint // 시스템 배경색 설정
-        
+        view.backgroundColor = UIColor.background
+
         view.addSubview(homeTitle)
         view.addSubview(roomAddButton)
         view.addSubview(editButton)
@@ -87,3 +87,5 @@ class ViewController: UIViewController {
         print("edit button Pressed")
     }
 }
+
+ 
