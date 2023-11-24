@@ -3,7 +3,7 @@
 <h1>This is the Project for our 숏커톤</h1>
 
 <h2>Comon</h2>
-<h3>Friendship beyond countries</h3>
+<h3>커몬 Comom</h3>
 
 
 <img src = "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbf071050-8aed-457c-9875-0d008a1e3e92%2F%25E1%2584%2585%25E1%2585%25A9%25E1%2584%2580%25E1%2585%25A9.png?table=block&id=b99ddc5a-4536-4328-8c77-32a5239a1cf0&spaceId=4bed42de-71b8-4266-b5a7-e99ce099274c&width=1530&userId=d004bf15-60d6-4bbc-8417-a2eca108ac26&cache=v2">
