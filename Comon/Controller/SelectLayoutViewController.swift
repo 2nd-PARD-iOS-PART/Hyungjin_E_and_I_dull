@@ -46,7 +46,15 @@ class SelectLayoutViewController: UIViewController {
         nextButton.setImage(UIImage(named: "next.png"), for: .normal)
         nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
                 
+        let backButton = UIButton(type: .custom)
+        backButton.translatesAutoresizingMaskIntoConstraints = false
+        backButton.setImage(UIImage(named: "Back.png"), for: .normal)
+        backButton.addTarget(self, action: #selector(backButtonPressed), for: .touchUpInside)
+        
         self.view.addSubview(nextButton)
+        self.view.addSubview(backButton)
+
+        
         
         NSLayoutConstraint.activate([
             
@@ -75,6 +83,11 @@ class SelectLayoutViewController: UIViewController {
             imageView4.leadingAnchor.constraint(equalTo: imageView3.trailingAnchor, constant: 40),
             imageView4.widthAnchor.constraint(equalToConstant: 120),
             imageView4.heightAnchor.constraint(equalToConstant: 200),
+            
+            backButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            backButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30),
+            backButton.widthAnchor.constraint(equalToConstant: 80),
+            backButton.heightAnchor.constraint(equalToConstant: 60),
             
             nextButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             nextButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30),

@@ -38,11 +38,10 @@ class KeyWordViewController: UIViewController {
     
     let BackButton: UIButton = {
         let button = UIButton()
-        button.setTitle("이전", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        button.setTitle("", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 20 // 네모난 버튼을 만들기 위한 설정
+        button.setImage(UIImage(named: "Back.png"), for: .normal)
+        button.imageView?.contentMode = .scaleAspectFit
         return button
     }()
     

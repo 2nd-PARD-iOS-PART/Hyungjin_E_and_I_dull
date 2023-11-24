@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     // MARK: - add 버튼 클릭 시 실행될 함수 : 텍스트필드, alert, realm.add
     @objc func add() {
         print("add button Pressed")
-        let secondVC = FinalViewController()
+        let secondVC = RoomViewController()
         let navController = UINavigationController(rootViewController: secondVC)
         navController.modalPresentationStyle = .fullScreen
         self.present(navController, animated: true, completion: nil)
