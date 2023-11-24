@@ -11,6 +11,23 @@
 # <img src = "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d84f74b-2400-462d-ab8b-c89d880bbd12%2Fdlive_logo.png?table=block&id=b99ddc5a-4536-4328-8c77-32a5239a1cf0&spaceId=4bed42de-71b8-4266-b5a7-e99ce099274c&width=250&userId=d004bf15-60d6-4bbc-8417-a2eca108ac26&cache=v2" width="35" height="35" > 디라이브(DLive)<br>
 
 
+## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/120b212a-7351-407e-b3b5-55cb54791c84" height="35"> Team 소개
+저희는 음악에 진심인 사람들이 모인 **'형진E와 I들'** 입니다.<br>
+
+- **기획자**<br>
+  💁‍♀️박하은<br>
+  💁🏻‍♂️김재헌<br>
+  
+- **디자이너**<br>
+  👩‍🎨김수아<br>
+
+- **개발자**<br>
+  🧑‍💻김형진<br>
+  🧑‍💻김민섭<br>
+  🧑‍💻천주현<br>
+  👩‍💻오성진<br>
+
+  
 ## 😆 서비스 소개
 **"동승자 취향 기반 드라이브 선곡 AI 서비스"**<br>
 ### [서비스 소개 바로보기](https://www.notion.so/Dlive-b99ddc5a453643288c7732a5239a1cf0)  
@@ -74,19 +91,3 @@
 
 **Data Structure**<br><br>
 <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/ec1f6f3b-ea83-4a18-a6e5-05d940f3568c"><br><br><br>
-
-
-## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/120b212a-7351-407e-b3b5-55cb54791c84" height="35"> Team 소개
-저희는 음악에 진심인 사람들이 모인 **'멜로디가 체질'** 입니다.<br>
-
-- **기획자**<br>
-  💁‍♀️신하진<br>
-
-- **디자이너**<br>
-  👩‍🎨박예봄<br>
-
-- **개발자**<br>
-  🧑‍💻최성찬<br>
-  🧑‍💻김민혁<br>
-  🧑‍💻천주현<br>
-  👩‍💻임예진<br>
