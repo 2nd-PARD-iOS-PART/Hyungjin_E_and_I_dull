@@ -81,7 +81,7 @@ class ViewController: UIViewController {
         navController.modalPresentationStyle = .fullScreen
         self.present(navController, animated: true, completion: nil)
     }
-    
+     
     // edit 버튼을 눌렀을 때 실행되는 함수
     @objc func editData() {
         print("edit button Pressed")
