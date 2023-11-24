@@ -20,21 +20,21 @@ class ViewController: UIViewController {
     
     let roomAddButton: UIButton = {
         let button = UIButton()
-        button.setTitle("방 만들기", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        let image = UIImage(named: "makeRoom")?.withRenderingMode(.alwaysOriginal) // 이미지 이름으로 변경해주세요
+        button.setImage(image, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 10
+//        button.layer.cornerRadius = 10
         return button
     }()
     
+    
+    
     let editButton: UIButton = {
         let button = UIButton()
-        button.setTitle("방 입장하기", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        let image = UIImage(named: "enterRoom")?.withRenderingMode(.alwaysOriginal) // 이미지 이름으로 변경해주세요
+        button.setImage(image, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 10
+//        button.layer.cornerRadius = 10
         return button
     }()
     
@@ -59,14 +59,14 @@ class ViewController: UIViewController {
     func addConstraints() {
         NSLayoutConstraint.activate([
             roomAddButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 350),
-            roomAddButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 80),
-            roomAddButton.widthAnchor.constraint(equalToConstant: 100), // 버튼의 너비를 조절
-            roomAddButton.heightAnchor.constraint(equalToConstant: 100), // 버튼의 높이를 조절
+            roomAddButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            roomAddButton.widthAnchor.constraint(equalToConstant: 165), // 버튼의 너비를 조절
+            roomAddButton.heightAnchor.constraint(equalToConstant: 240), // 버튼의 높이를 조절
             
             editButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 350),
-            editButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -80),
-            editButton.widthAnchor.constraint(equalToConstant: 100), // 버튼의 너비를 조절
-            editButton.heightAnchor.constraint(equalToConstant: 100), // 버튼의 높이를 조절
+            editButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            editButton.widthAnchor.constraint(equalToConstant: 165), // 버튼의 너비를 조절
+            editButton.heightAnchor.constraint(equalToConstant: 240), // 버튼의 높이를 조절
             
             homeTitle.topAnchor.constraint(equalTo: view.topAnchor, constant: 70),
             homeTitle.centerXAnchor.constraint(equalTo: view.centerXAnchor)
@@ -81,7 +81,7 @@ class ViewController: UIViewController {
         navController.modalPresentationStyle = .fullScreen
         self.present(navController, animated: true, completion: nil)
     }
-    
+     
     // edit 버튼을 눌렀을 때 실행되는 함수
     @objc func editData() {
         print("edit button Pressed")

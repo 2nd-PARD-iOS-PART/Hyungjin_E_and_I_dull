@@ -20,51 +20,37 @@ class RoomViewController: UIViewController {
     
     let addButton: UIButton = {
         let button = UIButton()
-        button.setTitle("4명", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        let image = UIImage(named: "fourpeople")?.withRenderingMode(.alwaysOriginal) // 이미지 이름으로 변경해주세요
+        button.setImage(image, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 10 // 네모난 버튼을 만들기 위한 설정
         button.imageView?.contentMode = .scaleAspectFit // 이미지의 콘텐츠 모드 설정
         return button
     }()
     
     let SecondButton: UIButton = {
        let button = UIButton()
-       button.setTitle("", for: .normal)
-       button.setTitleColor(.black, for: .normal)
-       button.translatesAutoresizingMaskIntoConstraints = false
-       button.backgroundColor = .white
-       button.layer.cornerRadius = 10 // 네모난 버튼을 만들기 위한 설정
-        button.setImage(UIImage(systemName: "lock"), for: .normal) // 자물쇠 이미지 설정
-        button.tintColor = .black // 자물쇠 이미지의 색상을 검은색으로 설정
+        let image = UIImage(named: "lock1")?.withRenderingMode(.alwaysOriginal) // 이미지 이름으로 변경해주세요
+        button.setImage(image, for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
         button.imageView?.contentMode = .scaleAspectFit // 이미지의 콘텐츠 모드 설정
        return button
    }()
     
     let ThirdButton: UIButton = {
         let button = UIButton()
-        button.setTitle("", for: .normal)
-        button.setTitleColor(.black, for: .normal)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 10 // 네모난 버튼을 만들기 위한 설정
-        button.setImage(UIImage(systemName: "lock"), for: .normal) // 자물쇠 이미지 설정
-        button.tintColor = .black // 자물쇠 이미지의 색상을 검은색으로 설정
-        button.imageView?.contentMode = .scaleAspectFit // 이미지의 콘텐츠 모드 설정
+         let image = UIImage(named: "lock2")?.withRenderingMode(.alwaysOriginal) // 이미지 이름으로 변경해주세요
+         button.setImage(image, for: .normal)
+         button.translatesAutoresizingMaskIntoConstraints = false
+         button.imageView?.contentMode = .scaleAspectFit // 이미지의 콘텐츠 모드 설정
         return button
     }()
 
     let FourthButton: UIButton = {
         let button = UIButton()
-        button.setTitle("", for: .normal)
-        button.setTitleColor(.black, for: .normal)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 10 // 네모난 버튼을 만들기 위한 설정
-        button.setImage(UIImage(systemName: "lock"), for: .normal) // 자물쇠 이미지 설정
-        button.tintColor = .black // 자물쇠 이미지의 색상을 검은색으로 설정
-        button.imageView?.contentMode = .scaleAspectFit // 이미지의 콘텐츠 모드 설정
+         let image = UIImage(named: "lock3")?.withRenderingMode(.alwaysOriginal) // 이미지 이름으로 변경해주세요
+         button.setImage(image, for: .normal)
+         button.translatesAutoresizingMaskIntoConstraints = false
+         button.imageView?.contentMode = .scaleAspectFit // 이미지의 콘텐츠 모드 설정
         return button
     }()
     
