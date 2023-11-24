@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88AF2ECA2B1146C700093DB9 /* SelectLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2EC92B1146C700093DB9 /* SelectLayoutViewController.swift */; };
+		88AF2ECC2B1146FA00093DB9 /* LayoutFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2ECB2B1146FA00093DB9 /* LayoutFrameViewController.swift */; };
+		88AF2ED02B1149C400093DB9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2ECF2B1149C400093DB9 /* CameraViewController.swift */; };
+		88AF2ED22B114C3E00093DB9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF2ED12B114C3E00093DB9 /* ResultViewController.swift */; };
+		901757F12B1143BD007AA6EF /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901757F02B1143BD007AA6EF /* RoomViewController.swift */; };
+		901757F32B1143E6007AA6EF /* KeyWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901757F22B1143E6007AA6EF /* KeyWordViewController.swift */; };
 		CA97CA362B11004600A2FBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA352B11004600A2FBE5 /* AppDelegate.swift */; };
 		CA97CA382B11004600A2FBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA372B11004600A2FBE5 /* SceneDelegate.swift */; };
 		CA97CA3A2B11004600A2FBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97CA392B11004600A2FBE5 /* ViewController.swift */; };
@@ -37,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88AF2EC92B1146C700093DB9 /* SelectLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLayoutViewController.swift; sourceTree = "<group>"; };
+		88AF2ECB2B1146FA00093DB9 /* LayoutFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutFrameViewController.swift; sourceTree = "<group>"; };
+		88AF2ECF2B1149C400093DB9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		88AF2ED12B114C3E00093DB9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		901757F02B1143BD007AA6EF /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		901757F22B1143E6007AA6EF /* KeyWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyWordViewController.swift; sourceTree = "<group>"; };
 		CA97CA322B11004600A2FBE5 /* Comon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA97CA352B11004600A2FBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA97CA372B11004600A2FBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		901757EF2B11438F007AA6EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				901757F02B1143BD007AA6EF /* RoomViewController.swift */,
+				901757F22B1143E6007AA6EF /* KeyWordViewController.swift */,
+				88AF2EC92B1146C700093DB9 /* SelectLayoutViewController.swift */,
+				88AF2ECB2B1146FA00093DB9 /* LayoutFrameViewController.swift */,
+				88AF2ECF2B1149C400093DB9 /* CameraViewController.swift */,
+				88AF2ED12B114C3E00093DB9 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CA97CA292B11004600A2FBE5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +126,9 @@
 		CA97CA342B11004600A2FBE5 /* Comon */ = {
 			isa = PBXGroup;
 			children = (
+				901757EF2B11438F007AA6EF /* Controller */,
 				CA97CA702B11092800A2FBE5 /* Resources */,
 				CA97CA652B1106CC00A2FBE5 /* Design */,
-				CA97CA6E2B1108BB00A2FBE5 /* Controller */,
 				CA97CA6D2B1108A300A2FBE5 /* Views */,
 				CA97CA3E2B11004700A2FBE5 /* Assets.xcassets */,
 				CA97CA432B11004700A2FBE5 /* Info.plist */,
@@ -152,13 +177,6 @@
 				CA97CA392B11004600A2FBE5 /* ViewController.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		CA97CA6E2B1108BB00A2FBE5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		CA97CA702B11092800A2FBE5 /* Resources */ = {
@@ -299,12 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88AF2ED02B1149C400093DB9 /* CameraViewController.swift in Sources */,
 				CA97CA672B11077900A2FBE5 /* ColorSystem.swift in Sources */,
 				CA97CA3A2B11004600A2FBE5 /* ViewController.swift in Sources */,
+				901757F32B1143E6007AA6EF /* KeyWordViewController.swift in Sources */,
+				901757F12B1143BD007AA6EF /* RoomViewController.swift in Sources */,
+				88AF2ECC2B1146FA00093DB9 /* LayoutFrameViewController.swift in Sources */,
 				CA97CA362B11004600A2FBE5 /* AppDelegate.swift in Sources */,
 				CA97CA382B11004600A2FBE5 /* SceneDelegate.swift in Sources */,
 				CA97CA692B11078C00A2FBE5 /* ComponentSystem.swift in Sources */,
+				88AF2ECA2B1146C700093DB9 /* SelectLayoutViewController.swift in Sources */,
 				CA97CA6B2B11079500A2FBE5 /* FontSystem.swift in Sources */,
+				88AF2ED22B114C3E00093DB9 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AH42GP496;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Comon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -488,6 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AH42GP496;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Comon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
