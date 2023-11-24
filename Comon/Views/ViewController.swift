@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         view.backgroundColor = .systemBlue
         
         print("hello world")
+        print("!!!!!!!!hello world")
+        
     }
 
 
