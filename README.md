@@ -52,7 +52,7 @@
 
 ## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/12061128-e02b-41f8-a1c4-6fd16dd95835" height="35"> Technical
 **사용한 기술 스택**<br><br>
-<img src="https://img.shields.io/badge/Flutter-white?style=for-the-badge&logo=Figmajam&logoColor=02569B"/>
+<img src="https://img.shields.io/badge/Flutter-white?style=for-the-badge&logo=Figma&logoColor=02569B"/>
 <img src="https://img.shields.io/badge/Firebase-white?style=for-the-badge&logo=Firebase&logoColor=FFCA28"/>
 <img src="https://img.shields.io/badge/Dart-white?style=for-the-badge&logo=Dart&logoColor=0175C2"/>
 <br>
