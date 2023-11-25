@@ -58,7 +58,7 @@
 <img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/1f65e255-4c51-4843-8a6b-e1dc9dbbd3e9" width="250"><br><br><br>
 
 
-## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/12061128-e02b-41f8-a1c4-6fd16dd95835" height="35"> Technical
+## Technical
 **사용한 기술 스택**<br><br>
 
 <img src="https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=Figma"/>
@@ -67,13 +67,4 @@
 <img src="https://img.shields.io/badge/.ENV-white?style=for-the-badge&logo=.ENV"/>
 <br><br><br>
 
-<br>
-<img src="https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=Figma"/>
-<img src="https://img.shields.io/badge/Git-white?style=for-the-badge&logo=Git&logoColor=F05032"/>
-<img src="https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=GitHub&logoColor=181717"/>
-<img src="https://img.shields.io/badge/.ENV-white?style=for-the-badge&logo=.ENV"/>
-<br><br><br>
-
-
 **Data Structure**<br><br>
-<img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/ec1f6f3b-ea83-4a18-a6e5-05d940f3568c"><br><br><br>
