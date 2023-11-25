@@ -63,4 +63,5 @@
 <img src="https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=Figma"/>
 <img src="https://img.shields.io/badge/Git-white?style=for-the-badge&logo=Git&logoColor=F05032"/>
 <img src="https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=GitHub&logoColor=181717"/>
+<img width="20" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/0b53351e-f856-47c6-996a-bcfcdba3c2b2">
 <br><br><br>
