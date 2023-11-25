@@ -3,8 +3,6 @@
 <h1>This is the Project for our 숏커톤</h1>
 
 <h2>Comon</h2>
-<h3>커몬 Comom</h3>
-
 
 <img src = "!(https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/409dc2b9-5534-4f16-b36b-73ee7cd76261)
 ">
@@ -13,7 +11,7 @@
 
 
 ## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/120b212a-7351-407e-b3b5-55cb54791c84" height="35"> Team 소개
-저희는 음악에 진심인 사람들이 모인 **'형진E와 I들'** 입니다.<br>
+저희는 세상의 순간들을 연결하고자 하는 **'형진E와 I들'** 입니다.<br>
 
 - **기획자**<br>
   💁🏻‍♀️박하은<br>
