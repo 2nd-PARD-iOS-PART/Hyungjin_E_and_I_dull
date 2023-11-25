@@ -10,7 +10,7 @@
 # <img src = "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d84f74b-2400-462d-ab8b-c89d880bbd12%2Fdlive_logo.png?table=block&id=b99ddc5a-4536-4328-8c77-32a5239a1cf0&spaceId=4bed42de-71b8-4266-b5a7-e99ce099274c&width=250&userId=d004bf15-60d6-4bbc-8417-a2eca108ac26&cache=v2" width="35" height="35" > 커몬(comom)<br>
 
 
-## <img src = "https://github.com/1st-PARD-APP-PART/pixel_n_semicolon/assets/127292731/120b212a-7351-407e-b3b5-55cb54791c84" height="35"> Team 소개
+## 🟡 Team 소개
 저희는 세상의 순간들을 연결하고자 하는 **'형진E와 I들'** 입니다.<br>
 
 - **기획자**<br>
