@@ -53,7 +53,6 @@
 <img width="393" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/5fa2f42a-5f45-4ef9-b53c-be11ef9d4763">
 <img width="389" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/ff1136ab-f8f2-497a-8aaa-3bdf5f828168">
 
-- **카메라 촬영 화면<br>**
 <br><br><br>
 
 
