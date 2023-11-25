@@ -7,7 +7,8 @@
 <img src = "!(https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/409dc2b9-5534-4f16-b36b-73ee7cd76261)
 ">
 
-# <img src = "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2d84f74b-2400-462d-ab8b-c89d880bbd12%2Fdlive_logo.png?table=block&id=b99ddc5a-4536-4328-8c77-32a5239a1cf0&spaceId=4bed42de-71b8-4266-b5a7-e99ce099274c&width=250&userId=d004bf15-60d6-4bbc-8417-a2eca108ac26&cache=v2" width="35" height="35" > 커몬(comom)<br>
+# <img src = "![메인 로고 2](https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/7a95ebd1-3d3c-4f8a-9f7e-5e5d8d02f5f4)
+" > 커몬(comom)<br>
 
 
 ## 🟡 Team 소개
