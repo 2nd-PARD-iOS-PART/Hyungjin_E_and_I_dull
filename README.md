@@ -46,9 +46,9 @@
 - **홈 화면**<br>
 <img width="396" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/b8a22dbd-5fc7-4c55-9358-9b8b4ad90d72"><br><br>
 - **방 생성 및 음악 추가 화면<br>**
-<img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/f153bdbe-6eb0-4b4c-b434-4cd3ec4b2773" width="250">&nbsp;&nbsp;
-<img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/9be36974-c080-404b-948d-1fcf8d251b93" width="250">&nbsp;&nbsp;
-<img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/c091d9d1-a070-45f3-b645-2b503239ec3b" width="250"> <br><br>
+<img width="382" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/82a8ccff-27ab-43b6-8164-958b87acd271">
+<img width="395" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/f233809d-c267-453e-bcc1-52cfed77aea1">
+<img width="393" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/5fa2f42a-5f45-4ef9-b53c-be11ef9d4763"><br><br>
 - **플레이리스트 목록 화면<br>**
 <img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/0744c366-ed2b-41ad-929f-5042e66af85f" width="250">&nbsp;&nbsp;
 <img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/1f65e255-4c51-4843-8a6b-e1dc9dbbd3e9" width="250"><br><br><br>
