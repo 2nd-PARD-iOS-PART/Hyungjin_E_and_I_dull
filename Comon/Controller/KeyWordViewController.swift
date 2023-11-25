@@ -13,7 +13,7 @@ class KeyWordViewController: UIViewController {
         let label = UILabel()
         label.text = "키워드 입력"
         label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
-        label.textColor = .white
+        label.textColor = UIColor.textBlack
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()

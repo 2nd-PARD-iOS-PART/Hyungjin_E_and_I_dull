@@ -10,12 +10,14 @@ class SelectLayoutViewController: UIViewController {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.text = "레이아웃 선택"
         titleLabel.font = UIFont.boldSystemFont(ofSize: 20)
+        titleLabel.textColor = UIColor.textBlack
         view.addSubview(titleLabel)
         
         let titleLabel2 = UILabel()
         titleLabel2.translatesAutoresizingMaskIntoConstraints = false
         titleLabel2.text = "* 개인 사진은 랜덤으로 선택됩니다"
         titleLabel2.font = UIFont.boldSystemFont(ofSize: 17)
+        titleLabel2.textColor = UIColor.textBlack
         view.addSubview(titleLabel2)
         
         configureNavbar()
@@ -35,11 +37,6 @@ class SelectLayoutViewController: UIViewController {
         self.view.addSubview(imageView3)
         self.view.addSubview(imageView4)
         
-        // Add circular buttons below each image
-        addCircularButton(below: imageView1)
-        addCircularButton(below: imageView2)
-        addCircularButton(below: imageView3)
-        addCircularButton(below: imageView4)
         
         let nextButton = UIButton(type: .custom)
         nextButton.translatesAutoresizingMaskIntoConstraints = false
@@ -65,24 +62,24 @@ class SelectLayoutViewController: UIViewController {
             titleLabel2.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             
             imageView1.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
-            imageView1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 80),
-            imageView1.widthAnchor.constraint(equalToConstant: 70),
-            imageView1.heightAnchor.constraint(equalToConstant: 200),
+            imageView1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            imageView1.widthAnchor.constraint(equalToConstant: 170),
+            imageView1.heightAnchor.constraint(equalToConstant: 230),
             
-            imageView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 280),
-            imageView2.leadingAnchor.constraint(equalTo: imageView1.trailingAnchor, constant: 30),
-            imageView2.widthAnchor.constraint(equalToConstant: 180),
-            imageView2.heightAnchor.constraint(equalToConstant: 60),
+            imageView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
+            imageView2.leadingAnchor.constraint(equalTo: imageView1.trailingAnchor, constant: 20),
+            imageView2.widthAnchor.constraint(equalToConstant: 170),
+            imageView2.heightAnchor.constraint(equalToConstant: 230),
             
-            imageView3.topAnchor.constraint(equalTo: imageView1.bottomAnchor, constant: 90),
-            imageView3.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 60),
-            imageView3.widthAnchor.constraint(equalToConstant: 120),
-            imageView3.heightAnchor.constraint(equalToConstant: 120),
+            imageView3.topAnchor.constraint(equalTo: imageView1.bottomAnchor, constant: 30),
+            imageView3.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            imageView3.widthAnchor.constraint(equalToConstant: 170),
+            imageView3.heightAnchor.constraint(equalToConstant: 230),
             
-            imageView4.topAnchor.constraint(equalTo: imageView2.bottomAnchor, constant: 130),
-            imageView4.leadingAnchor.constraint(equalTo: imageView3.trailingAnchor, constant: 40),
-            imageView4.widthAnchor.constraint(equalToConstant: 120),
-            imageView4.heightAnchor.constraint(equalToConstant: 200),
+            imageView4.topAnchor.constraint(equalTo: imageView2.bottomAnchor, constant: 30),
+            imageView4.leadingAnchor.constraint(equalTo: imageView3.trailingAnchor, constant: 20),
+            imageView4.widthAnchor.constraint(equalToConstant: 170),
+            imageView4.heightAnchor.constraint(equalToConstant: 230),
             
             backButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             backButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30),
@@ -96,27 +93,6 @@ class SelectLayoutViewController: UIViewController {
         ])
     }
     
-    private func addCircularButton(below imageView: UIImageView) {
-        let button = UIButton(type: .system)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.layer.cornerRadius = 15 // Adjust the corner radius as needed
-        button.layer.borderWidth = 2
-        button.layer.borderColor = UIColor.black.cgColor
-        button.backgroundColor = UIColor.white
-
-        self.view.addSubview(button)
-
-        NSLayoutConstraint.activate([
-            button.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 10),
-            button.centerXAnchor.constraint(equalTo: imageView.centerXAnchor),
-            button.widthAnchor.constraint(equalToConstant: 30),
-            button.heightAnchor.constraint(equalToConstant: 30)
-        ])
-
-        // Add any action you want for the button here
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-    }
-
     private func configureNavbar() {
         // UIBarButtonItem을 생성하고 시스템에서 제공하는 "X" 아이템을 설정
         let item1 = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(XButtonPressed))

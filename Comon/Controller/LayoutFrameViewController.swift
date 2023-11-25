@@ -12,18 +12,7 @@ class LayoutFrameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.background
-
-        let image = UIImageView(image: UIImage(named: "layoutframe.png"))
-        image.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(image)
         
-        let imageEllipse = UIImageView(image: UIImage(named: "ellipse.png"))
-        imageEllipse.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(imageEllipse)
-        
-        let imageFace = UIImageView(image: UIImage(named: "face.png"))
-        imageFace.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(imageFace)
         
         configureNavbar()
 
@@ -34,28 +23,54 @@ class LayoutFrameViewController: UIViewController {
         
         imageReadyButton.addTarget(self, action: #selector(imageReadyButtonTapped), for: .touchUpInside)
         
+        let imageView1 = UIImageView(image: UIImage(named: "frame1.png"))
+        let imageView2 = UIImageView(image: UIImage(named: "frame2.png"))
+        let imageView3 = UIImageView(image: UIImage(named: "frame3.png"))
+
+        
+        imageView1.translatesAutoresizingMaskIntoConstraints = false
+        imageView2.translatesAutoresizingMaskIntoConstraints = false
+        imageView3.translatesAutoresizingMaskIntoConstraints = false
+
+        
+        self.view.addSubview(imageView1)
+        self.view.addSubview(imageView2)
+        self.view.addSubview(imageView3)
+
+        let titleLabel2 = UILabel()
+        titleLabel2.translatesAutoresizingMaskIntoConstraints = false
+        titleLabel2.text = "* 모두가 준비 완료를 눌러야 시작할 수 있어요."
+        titleLabel2.font = UIFont.boldSystemFont(ofSize: 17)
+        titleLabel2.textColor = UIColor(red: 1.0, green: 0.36, blue: 0.16, alpha: 1.0)
+        view.addSubview(titleLabel2)
+
         
         
         NSLayoutConstraint.activate([
-            image.topAnchor.constraint(equalTo: view.topAnchor, constant: 150),
-            image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            image.widthAnchor.constraint(equalToConstant: 350),
-            image.heightAnchor.constraint(equalToConstant: 300),
+        
+            imageView1.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
+            imageView1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            imageView1.widthAnchor.constraint(equalToConstant: 170),
+            imageView1.heightAnchor.constraint(equalToConstant: 230),
             
-            imageEllipse.topAnchor.constraint(equalTo: image.bottomAnchor, constant: 120),
-            imageEllipse.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            imageEllipse.widthAnchor.constraint(equalToConstant: 70),
-            imageEllipse.heightAnchor.constraint(equalToConstant: 70),
+            imageView2.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
+            imageView2.leadingAnchor.constraint(equalTo: imageView1.trailingAnchor, constant: 20),
+            imageView2.widthAnchor.constraint(equalToConstant: 170),
+            imageView2.heightAnchor.constraint(equalToConstant: 230),
             
-            imageFace.topAnchor.constraint(equalTo: image.bottomAnchor, constant: 130),
-            imageFace.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            imageFace.widthAnchor.constraint(equalToConstant: 50),
-            imageFace.heightAnchor.constraint(equalToConstant: 50),
+            imageView3.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
+            imageView3.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            imageView3.widthAnchor.constraint(equalToConstant: 160),
+            imageView3.heightAnchor.constraint(equalToConstant: 70),
             
-            imageReadyButton.topAnchor.constraint(equalTo: imageFace.bottomAnchor, constant: 30),
+            
+            imageReadyButton.topAnchor.constraint(equalTo: view.bottomAnchor, constant: -350),
             imageReadyButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            imageReadyButton.widthAnchor.constraint(equalToConstant: 110),
-            imageReadyButton.heightAnchor.constraint(equalToConstant: 110)
+            imageReadyButton.widthAnchor.constraint(equalToConstant: 200),
+            imageReadyButton.heightAnchor.constraint(equalToConstant: 200),
+            
+            titleLabel2.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -110),
+            titleLabel2.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
 
     }

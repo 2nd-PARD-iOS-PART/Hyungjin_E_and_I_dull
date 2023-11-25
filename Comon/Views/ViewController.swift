@@ -13,10 +13,13 @@ class ViewController: UIViewController {
         let label = UILabel()
         label.text = "커몬"
         label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
-        label.textColor = .black
+        label.textColor = UIColor(red: 1.0, green: 0.36, blue: 0.16, alpha: 1.0)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
+        
+        
     }()
+
     
     let roomAddButton: UIButton = {
         let button = UIButton()

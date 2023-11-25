@@ -13,7 +13,7 @@ class RoomViewController: UIViewController {
         let label = UILabel()
         label.text = "인원 선택"
         label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
-        label.textColor = .white
+        label.textColor = UIColor.textBlack
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
