@@ -63,7 +63,6 @@
 <img src="https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=Figma"/>
 <img src="https://img.shields.io/badge/Git-white?style=for-the-badge&logo=Git&logoColor=F05032"/>
 <img src="https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=GitHub&logoColor=181717"/>
-<img src="https://img.shields.io/badge/.ENV-white?style=for-the-badge&logo=.ENV"/>
 <br><br><br>
 
 **Data Structure**<br><br>
