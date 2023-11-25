@@ -7,8 +7,8 @@
 <img src = "!(https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/409dc2b9-5534-4f16-b36b-73ee7cd76261)
 ">
 
-# <img src = "![메인 로고 2](https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/7a95ebd1-3d3c-4f8a-9f7e-5e5d8d02f5f4)
-" > 커몬(comom)<br>
+# ![메인 로고 2](https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/7a95ebd1-3d3c-4f8a-9f7e-5e5d8d02f5f4)
+## 커몬(comom)<br>
 
 
 ## 🟡 Team 소개
