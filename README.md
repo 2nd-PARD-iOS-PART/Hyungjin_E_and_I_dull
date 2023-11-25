@@ -64,5 +64,3 @@
 <img src="https://img.shields.io/badge/Git-white?style=for-the-badge&logo=Git&logoColor=F05032"/>
 <img src="https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=GitHub&logoColor=181717"/>
 <br><br><br>
-
-**Data Structure**<br><br>
