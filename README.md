@@ -50,12 +50,11 @@
 <img width="395" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/f233809d-c267-453e-bcc1-52cfed77aea1">
 
 - **레이아웃 선택 및 참여코드 화면<br>**
-<img width="393" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/5fa2f42a-5f45-4ef9-b53c-be11ef9d4763"><br><br>
+<img width="393" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/5fa2f42a-5f45-4ef9-b53c-be11ef9d4763">
 <img width="389" alt="image" src="https://github.com/2nd-PARD-iOS-PART/Hyungjin_E_and_I_dull/assets/122345560/ff1136ab-f8f2-497a-8aaa-3bdf5f828168">
 
 - **카메라 촬영 화면<br>**
-<img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/0744c366-ed2b-41ad-929f-5042e66af85f" width="250">&nbsp;&nbsp;
-<img src = "https://github.com/I-mYejin/2023OSS_TeamProject/assets/127292731/1f65e255-4c51-4843-8a6b-e1dc9dbbd3e9" width="250"><br><br><br>
+<br><br><br>
 
 
 ## Technical
